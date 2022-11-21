@@ -13,7 +13,6 @@ More code will be released soon.
 | Conv2Former-N        | 15M        | 2.2G   |       224        |  81.5%     | Comming soom |
 | SwinT-T              | 28M        | 4.5G   |       224        |  81.5%     | -            |
 | ConvNeXt-T           | 29M        | 4.5G   |       224        |  82.1%     | -            |
-| ConvFormer-S18       | 27M        | 3.9G   |       224        |  83.0%     | -            |
 | Conv2Former-T        | 27M        | 4.4G   |       224        |  83.2%     | Comming soom |
 | SwinT-S              | 50M        | 8.7G   |       224        |  83.0%     | -            |
 | ConvNeXt-S           | 50M        | 8.7G   |       224        |  83.1%     | -            |
@@ -22,7 +21,6 @@ More code will be released soon.
 | SwinT-B              | 88M        | 15.4G  |       224        |  83.5%     | -            |
 | ConvNeXt-B           | 89M        | 15.4G  |       224        |  83.8%     | -            |
 | FocalNet-B           | 89M        | 15.4G  |       224        |  83.9%     | -            |
-| MOAT-2               | 73M        | 17.2G  |       224        |  84.2%     | -            |
 | Conv2Former-B        | 90M        | 15.9G  |       224        |  84.4%     | Comming soom |
 
 ### Pre-Training on ImageNet-22k and Finetining on ImageNet-1k
@@ -45,4 +43,53 @@ More code will be released soon.
 | ConvNeXt-L           | 198M       | 101G   |       384        |  87.5%     | -            |
 | CoAtNet-3            | 168M       | 107G   |       384        |  87.6%     | -            |
 | Conv2Former-L        | 199M       | 106G   |       384        |  87.7%     | Comming soom |
+
+### Reference
+You may want to cite:
+```
+@inproceedings{liu2022convnet,
+      title={A ConvNet for the 2020s}, 
+      author={Zhuang Liu and Hanzi Mao and Chao-Yuan Wu and Christoph Feichtenhofer and Trevor Darrell and Saining Xie},
+      booktitle=CVPR,
+      year={2022}
+}
+
+@inproceedings{liu2021swin,
+  title={Swin transformer: Hierarchical vision transformer using shifted windows},
+  author={Liu, Ze and Lin, Yutong and Cao, Yue and Hu, Han and Wei, Yixuan and Zhang, Zheng and Lin, Stephen and Guo, Baining},
+  booktitle=ICCV,
+  year={2021}
+}
+
+@inproceedings{tan2021efficientnetv2,
+  title={Efficientnetv2: Smaller models and faster training},
+  author={Tan, Mingxing and Le, Quoc},
+  booktitle=ICML,
+  pages={10096--10106},
+  year={2021},
+  organization={PMLR}
+}
+
+@misc{focalmnet,
+  author = {Yang, Jianwei and Li, Chunyuan and Gao, Jianfeng},
+  title = {Focal Modulation Networks},
+  publisher = {arXiv},
+  year = {2022},
+}
+
+@article{dai2021coatnet,
+  title={Coatnet: Marrying convolution and attention for all data sizes},
+  author={Dai, Zihang and Liu, Hanxiao and Le, Quoc and Tan, Mingxing},
+  journal=NIPS,
+  volume={34},
+  year={2021}
+}
+
+@inproceedings{replknet,
+  author = {Ding, Xiaohan and Zhang, Xiangyu and Zhou, Yizhuang and Han, Jungong and Ding, Guiguang and Sun, Jian},
+  title = {Scaling Up Your Kernels to 31x31: Revisiting Large Kernel Design in CNNs},
+  booktitle=CVPR,
+  year = {2022},
+}
+```
 
