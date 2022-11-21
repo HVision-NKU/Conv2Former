@@ -13,6 +13,7 @@ More code will be released soon.
 | Conv2Former-N        | 15M        | 2.2G   |       224        |  81.5%     | Comming soom |
 | SwinT-T              | 28M        | 4.5G   |       224        |  81.5%     | -            |
 | ConvNeXt-T           | 29M        | 4.5G   |       224        |  82.1%     | -            |
+| ConvFormer-S18       | 27M        | 3.9G   |       224        |  83.0%     | -            |
 | Conv2Former-T        | 27M        | 4.4G   |       224        |  83.2%     | Comming soom |
 | SwinT-S              | 50M        | 8.7G   |       224        |  83.0%     | -            |
 | ConvNeXt-S           | 50M        | 8.7G   |       224        |  83.1%     | -            |
