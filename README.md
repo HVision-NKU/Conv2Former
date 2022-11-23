@@ -47,6 +47,13 @@ More code will be released soon.
 ### Reference
 You may want to cite:
 ```
+@article{hou2022conv2former,
+  title={Conv2Former: A Simple Transformer-Style ConvNet for Visual Recognition},
+  author={Hou, Qibin and Lu, Cheng-Ze and Cheng, Ming-Ming and Feng, Jiashi},
+  journal={arXiv preprint arXiv:2211.11943},
+  year={2022}
+}
+
 @inproceedings{liu2022convnet,
       title={A ConvNet for the 2020s}, 
       author={Zhuang Liu and Hanzi Mao and Chao-Yuan Wu and Christoph Feichtenhofer and Trevor Darrell and Saining Xie},
