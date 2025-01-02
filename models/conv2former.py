@@ -1,12 +1,10 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from functools import partial
 
-from timm.models.layers import DropPath, to_2tuple, trunc_normal_
+from timm.models.layers import DropPath, trunc_normal_
 from timm.models.registry import register_model
 from timm.models.vision_transformer import _cfg
-import math
 
 class MLP(nn.Module):
     def __init__(self, dim, mlp_ratio=4):
@@ -160,7 +158,7 @@ class LayerNorm(nn.Module):
 
 @register_model
 def conv2former_n(pretrained=False, **kwargs):
-    model = Conv2Former(kernel_size=11, dims=[64, 128, 256, 512], mlp_ratios=[4, 4, 4, 4], depths=[2, 2, 8, 2], **kwargs)
+    model = Conv2Former(kernel_size=7, dims=[64, 128, 256, 512], mlp_ratios=[4, 4, 4, 4], depths=[2, 2, 8, 2], **kwargs)
     model.default_cfg = _cfg()
     return model
 
@@ -179,6 +177,12 @@ def conv2former_s(pretrained=False, **kwargs):
 @register_model
 def conv2former_b(pretrained=False, **kwargs):
     model = Conv2Former(kernel_size=11, dims=[96, 192, 384, 768], mlp_ratios=[4, 4, 4, 4], depths=[4, 4, 34, 4], **kwargs)
+    model.default_cfg = _cfg()
+    return model
+
+@register_model
+def conv2former_b_22k(pretrained=False, **kwargs):
+    model = Conv2Former(kernel_size=7, dims=[96, 192, 384, 768], mlp_ratios=[4, 4, 4, 4], depths=[4, 4, 34, 4], **kwargs)
     model.default_cfg = _cfg()
     return model
 
