@@ -85,21 +85,21 @@ python validate.py $DATA_DIR --model $MODEL --checkpoint $CHECKPOINT
 | Model                | Parameters | FLOPs  | Image resolution | Top 1 Acc. | Model File   |
 | :------------------- | :--------- | :------| :--------------- | :--------- | :----------- |
 | ConvNeXt-S           | 50M        | 8.7G   |       224        |  84.6%     |  -           |
-| Conv2Former-S        | 50M        | 8.7G   |       224        |  84.9%     | [baiduyun](https://pan.baidu.com/s/17dq0ScQ8e5wOqZHfu6nfDw?pwd=wg3s)      |
+| Conv2Former-S        | 50M        | 8.7G   |       224        |  84.9%     | [baiduyun](https://pan.baidu.com/s/1uMBF5xSvdWa5TCjQ_jlK4g?pwd=1iij)      |
 | SwinT-B              | 88M        | 15.4G  |       224        |  85.2%     | -            |
 | ConvNeXt-B           | 89M        | 15.4G  |       224        |  85.8%     | -            |
-| Conv2Former-B        | 90M        | 15.9G  |       224        |  86.2%     | [baiduyun](https://pan.baidu.com/s/1TlIacEV4xaedQRKoL5wxTQ?pwd=emdg)      |
+| Conv2Former-B        | 90M        | 15.9G  |       224        |  86.2%     | [baiduyun](https://pan.baidu.com/s/1rkt3NhYQhPPOD5kj67uZCw?pwd=gbj9)      |
 | SwinT-B              | 88M        | 47.0G  |       384        |  86.4%     | -            |
 | ConvNeXt-B           | 89M        | 45.1G  |       384        |  86.8%     | -            |
 | Conv2Former-B        | 90M        | 46.7G  |       384        |  87.0%     | -      |
 | SwinT-L              | 197M       | 34.5G  |       224        |  86.3%     | -            |
 | ConvNeXt-L           | 198M       | 34.4G  |       224        |  86.6%     | -            |
-| Conv2Former-L        | 199M       | 36.0G  |       224        |  87.0%     | [baiduyun](https://pan.baidu.com/s/1GNKsMsO4oStGqKAwV8eltQ?pwd=dyfj)      |
+| Conv2Former-L        | 199M       | 36.0G  |       224        |  87.0%     | [baiduyun](https://pan.baidu.com/s/1_YYQ_rY9QRkq-m2lv23GPg?pwd=44os)      |
 | EffNet-V2-XL         | 208M       | 94G    |       480        |  87.3%     | -            |
 | SwinT-L              | 197M       | 104G   |       384        |  87.3%     | -            |
 | ConvNeXt-L           | 198M       | 101G   |       384        |  87.5%     | -            |
 | CoAtNet-3            | 168M       | 107G   |       384        |  87.6%     | -            |
-| Conv2Former-L        | 199M       | 106G   |       384        |  87.7%     | [baiduyun](https://pan.baidu.com/s/1kXUvZLRpIA8i_vZ-HroTZw?pwd=iwm9)      |
+| Conv2Former-L        | 199M       | 106G   |       384        |  87.7%     | [baiduyun](https://pan.baidu.com/s/1vyBaA4UGUX_qlS-ugxpTSQ?pwd=gu0m)      |
 
 
 ### Citation
